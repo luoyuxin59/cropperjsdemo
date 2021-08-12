@@ -1,14 +1,14 @@
 <template>
   <div class="about">
-    <cropper :isShowCropper="true" ></cropper>
+    <vuecropper :isShowCropper="true" ></vuecropper>
   </div>  
 </template>
 <script>
-import cropper from "../components/cropper.vue"
+import vuecropper from "../components/vuecropper.vue"
 export default {
   name:'about',
   components: {
-    cropper
+    vuecropper
   },
   data() {
     return {

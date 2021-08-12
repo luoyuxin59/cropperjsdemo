@@ -69,7 +69,9 @@
       realTime(data) {
         this.previews = data
       },
-      handleClose() {},
+      handleClose() {
+        this.visible =  false
+      },
       beforeAvatarUpload(file) {
         // 此处的上传file有多种处理方式
         console.log(file)
