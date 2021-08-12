@@ -178,7 +178,9 @@ export default {
 .container {
   margin-bottom: 20px;
   display: flex;
-
+}
+.cropper-modal {
+  background-color: #fff !important;
 }
 .before {
   width: 100px;
