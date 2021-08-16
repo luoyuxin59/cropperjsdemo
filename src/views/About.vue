@@ -4,20 +4,19 @@
   </div>  
 </template>
 <script>
-import vuecropper from "../components/vuecropper.vue"
+import vuecropper from "../components/common/vuecropper.vue"
 export default {
   name:'about',
   components: {
     vuecropper
   },
   data() {
-    return {
-    }
+    return {}
  },
   computed: {},
   created() {},
   mounted() {},
-  methods: {},
+  methods:  {},
 };
 </script>
 

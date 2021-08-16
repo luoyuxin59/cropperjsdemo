@@ -110,7 +110,7 @@
     },
     data() {
       return {
-        visible: true,
+        visible: false,
         options: {
           img: '', //裁剪图片的地址
           info: true, //裁剪框的大小信息
